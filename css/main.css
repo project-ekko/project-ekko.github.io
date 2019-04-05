@@ -56,7 +56,6 @@ header {
 }
 
 .ekkobtn {
-    background-color: #F5AE3C;
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 6;
@@ -64,11 +63,12 @@ header {
 }
 
 .profpic {
-    background-color: #D9594C;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: 3;
+    height: 100px;
+    width: 100px;
 }
 
 .header-grid {
