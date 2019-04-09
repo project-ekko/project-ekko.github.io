@@ -1,0 +1,90 @@
+body {
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    /* background: #1b1b1b; */
+    background: url('img\background.jpg') no-repeat ;
+    font-family: 'Roboto', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   }
+
+
+ .header {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 0px 0px;
+  }
+  
+
+ .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+
+   }
+  
+
+ .header a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px; 
+    border-radius: 4px;
+  }
+  
+ .header a:hover {
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+
+
+   .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: black;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: white;
+    
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #F5AE3C;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  
