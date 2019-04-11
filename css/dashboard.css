@@ -207,6 +207,26 @@ body {
       position: relative; 
     }
 
+
+    .filbtn {
+      border: none;
+      outline: none;
+      padding: 6px 16px;
+      background-color: black; 
+      cursor: pointer;
+      color: white;
+    }
+    
+    .filbtn:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .filbtn.active {
+      background-color: black;
+      color: #F5AE3C;
+    }
+          
     h3 {
       font-size: 1.2em;
       font-weight: bold;
