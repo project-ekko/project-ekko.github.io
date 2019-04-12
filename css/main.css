@@ -4,8 +4,8 @@ html, body {
 
 body {
     background-color: black;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+    color: Black;
+    font-family: 'Quicksand';
     text-align: center;
     background-image: url('../img/homebackground.jpg');
     background-size: cover;
