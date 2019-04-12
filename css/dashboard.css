@@ -14,7 +14,7 @@ body {
  .header {
     text-align: center;
     background-color: black;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px;
     height: 60px;
     margin: auto;
     overflow: hidden;
@@ -25,6 +25,7 @@ body {
  .header a.logo {
     overflow: hidden;
     align-items: center;
+	 resize:both
       }
 
  .header a {
@@ -55,7 +56,6 @@ body {
 }
 
 
-
   .header .dropdown {
     float: left;
     overflow: hidden;
@@ -70,7 +70,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color: white;
-    display: none;
+
   }
   
   .header #dropdown-content a {
@@ -86,6 +86,49 @@ body {
     background-color: #F5AE3C;
     color: black;
   }
+  
+  .head {
+    background-color: #1b1b1b;
+    padding: 15px 15px;
+    color: white;
+    text-align: center;
+    }
+    
+  
+    .head:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+  
+    input {
+    margin: 0;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    float: right;
+    font-size: 10px;
+    }
+    
+  
+    .addBtn {
+    padding: 8.5px;
+    width: 15%;
+    background: #235a86;
+    color: rgb(255, 255, 255);
+    /* float: left; */
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+    }
+    
+    .addBtn:hover {
+    background-color: #88c056;
+    color: #1b1b1b;
+    }
   
  
   li{
@@ -105,9 +148,8 @@ body {
  
   .bubble {
     width: 100%;
-    padding: .2em 1em;
-    line-height: 1.4em;
-    padding: 5px;
+    padding: 3px 3px;
+    line-height: 19px;
     background-color: #F5AE3C;
     position: relative;
     text-align: left;
@@ -116,7 +158,7 @@ body {
 
   
   .bubble-container {
-    width: 70%;
+    width: 80%;
     position: relative;
     padding-left: 10px;
     vertical-align: top;
@@ -128,22 +170,19 @@ body {
       display: block;
       margin: auto;
       background-color: #1b1b1b;
-      padding-bottom: 2em;
+      padding-bottom: 3px;
       /* -webkit-box-shadow: #bdc3c7 0 5px 5px; */
-      -moz-border-radius-bottomleft: 2px;
-      -webkit-border-bottom-left-radius: 2px;
-      border-bottom-left-radius: 2px;
-      -moz-border-radius-bottomright: 2px;
-      -webkit-border-bottom-right-radius: 2px;
-      border-bottom-right-radius: 2px;
-      margin-bottom: 2em;
+      /* margin-bottom: 1px; */
+      transition: 0.3s;
      }
      
       .timeline li {
-        padding: 1em 0; }
+        padding: 5px 0px; 
+      }
+
       .timeline li:nth-child(even) {
-        
-        background-color: #1b1b1b; }
+        background-color: #1b1b1b; 
+      }
     
     .avatar {
       width: 18%;
@@ -151,7 +190,8 @@ body {
       vertical-align: top;
       position: relative;
       overflow: hidden;
-      margin-left: 2%; }
+      margin-left: 0%; 
+  }
       .avatar img {
         width: 100%;
         -webkit-border-radius: 50%;
@@ -159,7 +199,7 @@ body {
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         border-radius: 50%;
-        border: 5px solid #ecf0f1;
+        border: 2.5px solid #ecf0f1;
         position: relative; 
     }
     
@@ -174,7 +214,7 @@ body {
       height: 100%;
       top: 0;
       font-size: 1.8em;
-      border: 5px solid #F5AE3C;
+      border: 3.5px solid #F5AE3C;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -200,22 +240,16 @@ body {
       transition-timing-function: ease; }
     
     .filter {
-      width: 600px;
+      max-width: 600px;
       display: block;
       margin: auto;
       background-color: Black;
-      padding: 1em 0 !important;
+      padding: 5px 0px !important;
       color: white;
       text-align: center;
       margin-top: 1em;
-      font-family: "Lato";
-      font-size: 1.6em;
-      -moz-border-radius-topleft: 8px;
-      -webkit-border-top-left-radius: 8px;
-      border-top-left-radius: 8px;
-      -moz-border-radius-topright: 8px;
-      -webkit-border-top-right-radius: 8px;
-      border-top-right-radius: 8px;
+      font-family: "Quicksand";
+      font-size: 1.2em;
       position: relative; 
     }
 
@@ -223,20 +257,22 @@ body {
     .filbtn {
       border: none;
       outline: none;
-      padding: 6px 16px;
+      padding: 6px 36px;
       background-color: black; 
       cursor: pointer;
       color: white;
+	  font-weight: 200;
     }
     
     .filbtn:hover {
-      background-color: #ddd;
-      color: black;
+      background-color: #1d1d1d;
+      color: #ffffff;
     }
     
     .filbtn.active {
       background-color: black;
       color: #F5AE3C;
+	  font-weight: 200;
     }
           
     h3 {
