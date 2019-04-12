@@ -22,19 +22,35 @@
           </svg>
            </a>
           
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <button class="dropbtn">Menu 
               <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
+            <div id="dropdown-content">
               <a href="#">Home</a> 
               <a href="#">Profile</a> 
               <a href="#">Settings</a>
 
            </div>         
-        </div>
-      </div>
+        </div> -->
+        <div class="dropdown">
           
+          <div id="dropdown-content">
+            <a href="#">Home</a> 
+            <a href="#">Profile</a> 
+            <a href="#">Settings</a>
+         </div> 
+         <a href="javascript:void(0);" class="dropbtn" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>       
+      </div>
+      </div>
+     
+      <!-- <div class="sidenav">
+  
+      </div>     -->
+
+
       <span class="filter"> 
         <div id="myBtnContainer">
           <button class="filbtn active" onclick="filterSelection('all')"> ALL</button>
