@@ -14,14 +14,13 @@ body {
     background-attachment: fixed;
 }
 
-header {
+/* header {
     background-color: #2F2827;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 10px;
     font-size: 20px;
-    
-}
+} */
 
 button {
     background-color: #EBB45C;
