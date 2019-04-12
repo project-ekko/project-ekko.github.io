@@ -1,8 +1,17 @@
+html, body {
+    min-height: 100%;
+}
+
 body {
     background-color: black;
     color: Black;
     font-family: 'Quicksand';
     text-align: center;
+    background-image: url('../img/homebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -11,10 +20,15 @@ header {
     padding-bottom: 5px;
     margin-bottom: 10px;
     font-size: 20px;
+    
 }
 
 button {
     background-color: #EBB45C;
+    height: 30px;
+    width: 200px;
+    text-decoration: underline;
+    
 }
 
 .btn-color {
