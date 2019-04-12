@@ -13,77 +13,62 @@ header {
     font-size: 20px;
 }
 
+button {
+    background-color: #EBB45C;
+}
+
 .btn-color {
-    background-color: #F5AE3C;
+    background-color: #EBB45C;
     font-size: 18px;
-    height: 35px;
-    width: 300px;
+    height: 15px;
+    width: 100px;
     align-items: center;
-    margin: 20px;
-
 }
 
-.container {
+
+.home-background {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    background-color: #F5AE3C;
-    
+    grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+    grid-template-columns: 26% 4% 40% 4% 26%;
 }
 
-.ekko-color {
-    background-color: #F5AE3C;
-    margin-top: 100px;
-    margin-bottom: 175px;
-    padding-left: 25px;
-    padding-right: 25px;
+.imagegrid {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 8;
 }
 
-.tweet-grid {
-    display: grid;
-    grid-template-columns: 4% 17.6% 4% 17.6% 17.6% 17.6% 17.6% 2%;
-    grid-template-rows: 4% 22% 22% 22% 4% 22% 4%;
-    height: 210px;
-    background-color: #2F2827;
-}
-
-.yellowbox {
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 2;
+.logingrid {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
     grid-row-end: 5;
-    background-color: #F5AE3C;
 }
 
-.ekkobtn {
-    grid-column-start: 6;
-    grid-column-end: 8;
+.signupgrid {
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 7;
 }
 
-.profpic {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    height: 100px;
-    width: 100px;
-}
-
-.header-grid {
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-}
-
-.newekko {
+.ekkogrid {
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
-.symbol {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    height: 20px;
-    width: 20px;
+.homebuttons {
+    background-color: #EBB45C;
+    color: white;
+}
+
+/* FORM */
+
+.formcolor {
+    background-color: black;
+    color: white;
+
 }
