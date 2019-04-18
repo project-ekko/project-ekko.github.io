@@ -187,9 +187,6 @@ body {
         padding: 5px 0px; 
       }
 
-      .timeline li:nth-child(even) {
-        background-color: #1b1b1b; 
-      }
     
     .avatar {
       width: 18%;
