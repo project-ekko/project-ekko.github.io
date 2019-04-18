@@ -30,6 +30,12 @@ button {
     
 }
 
+/* .ekkoposition {
+    position: sticky;
+    right: 100px;
+    top: 100px;
+} */
+
 .btn-color {
     background-color: #EBB45C;
     font-size: 18px;
@@ -43,6 +49,8 @@ button {
     display: grid;
     grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
     grid-template-columns: 26% 4% 40% 4% 26%;
+    height: 800px;
+    position: static;
 }
 
 .imagegrid {
@@ -85,3 +93,21 @@ button {
     color: white;
 
 }
+
+/* @media only screen and (max-height: 700px) {
+    .home-background {
+        display: grid;
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 700px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .home-background {
+        display: grid;
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 600px;
+    }
+} */
