@@ -1,0 +1,88 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: black;
+    color: Black;
+    font-family: 'Quicksand';
+    text-align: center;
+    background-image: url('../img/homebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* header {
+    background-color: #2F2827;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+} */
+
+button {
+    background-color: #EBB45C;
+    height: 30px;
+    width: 200px;
+    text-decoration: underline;
+    
+}
+
+.btn-color {
+    background-color: #EBB45C;
+    font-size: 18px;
+    height: 15px;
+    width: 100px;
+    align-items: center;
+}
+
+
+.home-background {
+    display: grid;
+    grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+    grid-template-columns: 26% 4% 40% 4% 26%;
+    height: 800px;
+}
+
+.imagegrid {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.logingrid {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.signupgrid {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.ekkogrid {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.homebuttons {
+    background-color: #EBB45C;
+    color: white;
+}
+
+/* FORM */
+
+.formcolor {
+    background-color: black;
+    color: white;
+
+}
