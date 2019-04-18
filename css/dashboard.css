@@ -93,7 +93,7 @@ body {
   }
   
   #dropdown-content a:hover {
-    background-color: #F5AE3C;
+    background-color: #EBB45C;
     color: black;
   }
   
@@ -125,7 +125,7 @@ body {
     .addBtn {
     padding: 8.5px;
     width: 15%;
-    background: #F5AE3C;
+    background: #EBB45C;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 14px;
@@ -159,7 +159,7 @@ body {
     width: 100%;
     padding: 3px 3px;
     line-height: 19px;
-    background-color: #F5AE3C;
+    background-color: #EBB45C;
     position: relative;
     text-align: left;
     display: inline-block;
@@ -178,10 +178,8 @@ body {
       max-width: 600px;
       display: block;
       margin: auto;
-      background-color: #1b1b1b;
-      padding-bottom: 3px;
-      /* -webkit-box-shadow: #bdc3c7 0 5px 5px; */
-      /* margin-bottom: 1px; */
+      background-color: #1b1b1b4f;
+      padding-bottom: 1px;
       transition: 0.3s;
      }
      
@@ -256,7 +254,7 @@ body {
       color: white;
       text-align: center;
       margin-top: 1em;
-      font-family: "Quicksand";
+      font-family: 'Quicksand';
       font-size: 1.2em;
       position: relative; 
     }
