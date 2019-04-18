@@ -43,6 +43,7 @@ button {
     display: grid;
     grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
     grid-template-columns: 26% 4% 40% 4% 26%;
+    height: 800px;
 }
 
 .imagegrid {
