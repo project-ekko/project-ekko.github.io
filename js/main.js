@@ -13,9 +13,6 @@ function myFunction() {
 const newEkko = document.getElementById(`newEkko`);
 const filterForm = document.getElementById(`filterCategories`)
 
-// Array will hold all off the shopping list items
-
-
 const categories = {
     ALL: false,
     ROCK: true,
