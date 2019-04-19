@@ -87,7 +87,7 @@ newEkko.addEventListener('submit', event => {
     // Use the current filter category as the default for any new items added
     // Push it into our dataset (Array: timeLine)
     // Default to 0 quantity, and no category
-    timeLine.push( { id: timeLine.length, name: groceryItem, qty: 1, cat: defaultCategory } );
+    timeLine.push( { id: timeLine.length, name: groceryItem, cat: defaultCategory } );
 
     // Save our timeLine to the browser
     window.localStorage.setItem('timeLine', JSON.stringify(timeLine));
