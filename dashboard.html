@@ -57,23 +57,35 @@
       <span class="filter"> 
 
           <div id="myDIV" class="head">
-              <textarea name="text" id="newEkko" rows="3" cols="75" wrap="soft"
+              <!-- <textarea name="text" id="newEkko" rows="3" cols="75" wrap="soft"
                placeholder="Whats ekkoing?..."> </textarea> 
-               <input type="submit" id="Ekko" class="addBtn" onclick="newElement()" >  
-               
+               <input type="submit" id="Ekko" class="addBtn" onclick="newElement()" >   -->
+               <form id="newEkko" class="newitem" autocomplete="off">
+                <label for="item" class="line-label">New Ekko</label>
+                <div class="addnew">
+                  <input type="text" name="item" id="item" class="form-component inpt" placeholder="What's Happening?">
+                  <input type="submit" value="Ekko" class="addBtn">
+                </div>
+              </form>
               </div>
+
         <div id="myBtnContainer">
-          <button class="filbtn active" onclick="filterSelection('all')"> ALL</button>
+          <!-- <button class="filbtn active" onclick="filterSelection('all')"> ALL</button>
           <button class="filbtn" onclick="filterSelection('rock')"> ROCK</button>
           <button class="filbtn" onclick="filterSelection('jazz')"> JAZZ</button>
           <button class="filbtn" onclick="filterSelection('trap')"> TRAP</button>
-          <button class="filbtn" onclick="filterSelection('chill')"> CHILL</button>
+          <button class="filbtn" onclick="filterSelection('chill')"> CHILL</button> -->
+
+          <form id="filterCategories">
+            <ul class="filters"></ul>
+          </form>
+
         </div>
 
         </span>
     
-      <ul class="timeline" id="timeline">
-        <li>
+      <ul class="timeline" id="timeLine">
+        <!-- <li>
           <div class="avatar">
             <img src="img\226 - Copy.jpg">
             <div class="hover">
@@ -82,7 +94,7 @@
           <div class="bubble-container">
             <div class="bubble">
               <h3>@carlf</h3> <br/>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.</p>
             </div>
             </div>
         </li>
@@ -96,8 +108,7 @@
           <div class="bubble-container">
             <div class="bubble">
             <h3>@russel</h3><br/>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.
-              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.</p>              </div>
             </div>
         </li>
         
@@ -110,8 +121,7 @@
           <div class="bubble-container">
             <div class="bubble">
               <h3>@carlf</h3><br/>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.
-              
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.</p>              
             </div>
           </div>
         </li>
@@ -125,8 +135,7 @@
           <div class="bubble-container">
             <div class="bubble">
             <h3>@russel</h3><br/>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.
-              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.</p>              </div>
             </div>
         </li>
 
@@ -139,16 +148,15 @@
           <div class="bubble-container">
             <div class="bubble">
               <h3>@carlf</h3> <br/>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, iusto, maxime, ullam autem a voluptate rem quos repudiandae.</p>            </div>
             </div>
-            </div>
-        </li>
+        </li> -->
 
       </ul>
   
   
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
-    <script src="js/main.js"></script>
-    <script src="js/dashboard.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/timeline.js"></script>
   </body>
 </html>

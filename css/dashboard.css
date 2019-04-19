@@ -98,10 +98,10 @@ body {
   }
   
   .head {
-    background-color: #1b1b1b;
+    background-color: #1b1b1b27;
     padding: 15px 15px;
     color: white;
-    text-align: center;
+    text-align: left
     }
     
   
@@ -115,7 +115,7 @@ body {
     input {
     margin: 0;
     border: none;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     float: right;
     font-size: 10px;
@@ -178,7 +178,7 @@ body {
       max-width: 600px;
       display: block;
       margin: auto;
-      background-color: #1b1b1b4f;
+      background-color: #1b1b1b09;
       padding-bottom: 1px;
       transition: 0.3s;
      }
@@ -246,7 +246,7 @@ body {
       max-width: 600px;
       display: block;
       margin: auto;
-      background-color: Black;
+      background-color: rgba(0, 0, 0, 0.034);
       padding: 5px 0px !important;
       color: white;
       text-align: center;
@@ -257,26 +257,34 @@ body {
     }
 
 
-    .filbtn {
+    .filters li {
+      display:inline-block;
       border: none;
       outline: none;
       padding: 6px 36px;
-      background-color: black; 
+      background-color: rgba(0, 0, 0, 0.027); 
       cursor: pointer;
       color: white;
 	  font-weight: 200;
     }
+
+    .filters input {
+      display: none;
+  }
     
-    .filbtn:hover {
+    .filters :hover {
       background-color: #1d1d1d;
       color: #ffffff;
     }
     
-    .filbtn.active {
+    .filters input:checked + label {
+      border-bottom: 3px solid #F5AE3C;
       background-color: black;
       color: #F5AE3C;
 	  font-weight: 200;
-    }
+  }
+
+
           
     h3 {
       font-size: 1.2em;
