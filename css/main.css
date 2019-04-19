@@ -38,12 +38,10 @@ button {
     align-items: center;
 }
 
-
 .home-background {
     display: grid;
     grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
     grid-template-columns: 26% 4% 40% 4% 26%;
-    height: 800px;
 }
 
 .imagegrid {
@@ -86,3 +84,43 @@ button {
     color: white;
 
 }
+
+@media only screen and (min-height: 600px) {
+    .home-background {
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 650px;
+    }
+  }
+
+  @media only screen and (min-height: 700px) {
+    .home-background {
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 750px;
+    }
+  }
+
+  @media only screen and (min-height: 800px) {
+    .home-background {
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 850px;
+    }
+  }
+
+  @media only screen and (min-height: 900px) {
+    .home-background {
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 950px;
+    }
+  }
+
+  @media only screen and (min-height: 1000px) {
+    .home-background {
+        grid-template-rows: 18% 18% 34% 8% 4% 8% 10%;
+        grid-template-columns: 26% 4% 40% 4% 26%;
+        height: 1050px;
+    }
+  }
